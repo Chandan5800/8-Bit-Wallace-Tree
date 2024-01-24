@@ -1,0 +1,252 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml wallace_multiplier.twx wallace_multiplier.ncd -o
+wallace_multiplier.twr wallace_multiplier.pcf
+
+Design file:              wallace_multiplier.ncd
+Physical constraint file: wallace_multiplier.pcf
+Device,package,speed:     xc7z010,clg400,C,-1 (PRODUCTION 1.08 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |ans<0>         |    9.217|
+A<0>           |ans<1>         |    9.435|
+A<0>           |ans<2>         |    8.673|
+A<0>           |ans<3>         |   10.861|
+A<0>           |ans<4>         |   12.256|
+A<0>           |ans<5>         |   12.860|
+A<0>           |ans<6>         |   13.392|
+A<0>           |ans<7>         |   13.809|
+A<0>           |ans<8>         |   13.726|
+A<0>           |ans<9>         |   14.252|
+A<0>           |ans<10>        |   14.080|
+A<0>           |ans<11>        |   14.293|
+A<0>           |ans<12>        |   14.355|
+A<0>           |ans<13>        |   14.227|
+A<0>           |ans<14>        |   14.207|
+A<0>           |ans<15>        |   14.575|
+A<1>           |ans<1>         |   10.002|
+A<1>           |ans<2>         |    9.714|
+A<1>           |ans<3>         |   12.012|
+A<1>           |ans<4>         |   13.098|
+A<1>           |ans<5>         |   13.702|
+A<1>           |ans<6>         |   14.234|
+A<1>           |ans<7>         |   14.651|
+A<1>           |ans<8>         |   14.697|
+A<1>           |ans<9>         |   15.240|
+A<1>           |ans<10>        |   15.068|
+A<1>           |ans<11>        |   15.355|
+A<1>           |ans<12>        |   15.402|
+A<1>           |ans<13>        |   15.399|
+A<1>           |ans<14>        |   15.379|
+A<1>           |ans<15>        |   15.747|
+A<2>           |ans<2>         |    9.562|
+A<2>           |ans<3>         |   11.970|
+A<2>           |ans<4>         |   13.005|
+A<2>           |ans<5>         |   13.609|
+A<2>           |ans<6>         |   14.141|
+A<2>           |ans<7>         |   14.558|
+A<2>           |ans<8>         |   14.475|
+A<2>           |ans<9>         |   15.017|
+A<2>           |ans<10>        |   14.845|
+A<2>           |ans<11>        |   15.209|
+A<2>           |ans<12>        |   15.258|
+A<2>           |ans<13>        |   15.375|
+A<2>           |ans<14>        |   15.355|
+A<2>           |ans<15>        |   15.723|
+A<3>           |ans<3>         |   10.934|
+A<3>           |ans<4>         |   11.938|
+A<3>           |ans<5>         |   12.990|
+A<3>           |ans<6>         |   13.192|
+A<3>           |ans<7>         |   14.433|
+A<3>           |ans<8>         |   14.881|
+A<3>           |ans<9>         |   15.424|
+A<3>           |ans<10>        |   15.252|
+A<3>           |ans<11>        |   15.465|
+A<3>           |ans<12>        |   15.527|
+A<3>           |ans<13>        |   15.446|
+A<3>           |ans<14>        |   15.426|
+A<3>           |ans<15>        |   15.794|
+A<4>           |ans<4>         |   11.195|
+A<4>           |ans<5>         |   13.126|
+A<4>           |ans<6>         |   14.018|
+A<4>           |ans<7>         |   15.371|
+A<4>           |ans<8>         |   15.819|
+A<4>           |ans<9>         |   16.362|
+A<4>           |ans<10>        |   16.190|
+A<4>           |ans<11>        |   16.457|
+A<4>           |ans<12>        |   16.504|
+A<4>           |ans<13>        |   16.607|
+A<4>           |ans<14>        |   16.587|
+A<4>           |ans<15>        |   16.955|
+A<5>           |ans<5>         |   12.261|
+A<5>           |ans<6>         |   13.487|
+A<5>           |ans<7>         |   14.840|
+A<5>           |ans<8>         |   15.288|
+A<5>           |ans<9>         |   15.913|
+A<5>           |ans<10>        |   15.806|
+A<5>           |ans<11>        |   16.237|
+A<5>           |ans<12>        |   16.284|
+A<5>           |ans<13>        |   16.281|
+A<5>           |ans<14>        |   16.261|
+A<5>           |ans<15>        |   16.629|
+A<6>           |ans<6>         |   13.230|
+A<6>           |ans<7>         |   14.294|
+A<6>           |ans<8>         |   15.222|
+A<6>           |ans<9>         |   15.930|
+A<6>           |ans<10>        |   15.823|
+A<6>           |ans<11>        |   16.254|
+A<6>           |ans<12>        |   16.301|
+A<6>           |ans<13>        |   16.298|
+A<6>           |ans<14>        |   16.278|
+A<6>           |ans<15>        |   16.646|
+A<7>           |ans<7>         |   14.286|
+A<7>           |ans<8>         |   14.734|
+A<7>           |ans<9>         |   15.358|
+A<7>           |ans<10>        |   15.251|
+A<7>           |ans<11>        |   15.682|
+A<7>           |ans<12>        |   15.729|
+A<7>           |ans<13>        |   15.726|
+A<7>           |ans<14>        |   15.706|
+A<7>           |ans<15>        |   16.074|
+B<0>           |ans<0>         |    8.830|
+B<0>           |ans<1>         |    9.014|
+B<0>           |ans<2>         |    8.911|
+B<0>           |ans<3>         |   10.885|
+B<0>           |ans<4>         |   12.101|
+B<0>           |ans<5>         |   13.441|
+B<0>           |ans<6>         |   13.691|
+B<0>           |ans<7>         |   15.018|
+B<0>           |ans<8>         |   15.466|
+B<0>           |ans<9>         |   16.009|
+B<0>           |ans<10>        |   15.865|
+B<0>           |ans<11>        |   16.296|
+B<0>           |ans<12>        |   16.343|
+B<0>           |ans<13>        |   16.340|
+B<0>           |ans<14>        |   16.320|
+B<0>           |ans<15>        |   16.688|
+B<1>           |ans<1>         |    8.984|
+B<1>           |ans<2>         |    8.264|
+B<1>           |ans<3>         |   11.556|
+B<1>           |ans<4>         |   12.838|
+B<1>           |ans<5>         |   13.442|
+B<1>           |ans<6>         |   14.441|
+B<1>           |ans<7>         |   15.633|
+B<1>           |ans<8>         |   16.489|
+B<1>           |ans<9>         |   17.197|
+B<1>           |ans<10>        |   17.090|
+B<1>           |ans<11>        |   17.521|
+B<1>           |ans<12>        |   17.568|
+B<1>           |ans<13>        |   17.565|
+B<1>           |ans<14>        |   17.545|
+B<1>           |ans<15>        |   17.913|
+B<2>           |ans<2>         |    8.991|
+B<2>           |ans<3>         |   11.763|
+B<2>           |ans<4>         |   12.737|
+B<2>           |ans<5>         |   14.028|
+B<2>           |ans<6>         |   14.230|
+B<2>           |ans<7>         |   15.643|
+B<2>           |ans<8>         |   16.191|
+B<2>           |ans<9>         |   16.899|
+B<2>           |ans<10>        |   16.792|
+B<2>           |ans<11>        |   17.223|
+B<2>           |ans<12>        |   17.270|
+B<2>           |ans<13>        |   17.267|
+B<2>           |ans<14>        |   17.247|
+B<2>           |ans<15>        |   17.615|
+B<3>           |ans<3>         |   10.233|
+B<3>           |ans<4>         |   12.199|
+B<3>           |ans<5>         |   12.803|
+B<3>           |ans<6>         |   13.335|
+B<3>           |ans<7>         |   14.588|
+B<3>           |ans<8>         |   15.036|
+B<3>           |ans<9>         |   15.591|
+B<3>           |ans<10>        |   15.484|
+B<3>           |ans<11>        |   15.915|
+B<3>           |ans<12>        |   15.962|
+B<3>           |ans<13>        |   15.959|
+B<3>           |ans<14>        |   15.939|
+B<3>           |ans<15>        |   16.307|
+B<4>           |ans<4>         |   11.960|
+B<4>           |ans<5>         |   12.564|
+B<4>           |ans<6>         |   13.096|
+B<4>           |ans<7>         |   14.195|
+B<4>           |ans<8>         |   15.022|
+B<4>           |ans<9>         |   15.730|
+B<4>           |ans<10>        |   15.623|
+B<4>           |ans<11>        |   16.163|
+B<4>           |ans<12>        |   16.255|
+B<4>           |ans<13>        |   16.372|
+B<4>           |ans<14>        |   16.352|
+B<4>           |ans<15>        |   16.720|
+B<5>           |ans<5>         |   12.232|
+B<5>           |ans<6>         |   13.841|
+B<5>           |ans<7>         |   15.071|
+B<5>           |ans<8>         |   15.519|
+B<5>           |ans<9>         |   16.062|
+B<5>           |ans<10>        |   15.890|
+B<5>           |ans<11>        |   16.210|
+B<5>           |ans<12>        |   16.302|
+B<5>           |ans<13>        |   16.419|
+B<5>           |ans<14>        |   16.399|
+B<5>           |ans<15>        |   16.767|
+B<6>           |ans<6>         |   12.471|
+B<6>           |ans<7>         |   13.668|
+B<6>           |ans<8>         |   14.116|
+B<6>           |ans<9>         |   14.659|
+B<6>           |ans<10>        |   14.487|
+B<6>           |ans<11>        |   14.700|
+B<6>           |ans<12>        |   14.762|
+B<6>           |ans<13>        |   14.634|
+B<6>           |ans<14>        |   14.614|
+B<6>           |ans<15>        |   14.982|
+B<7>           |ans<7>         |   11.489|
+B<7>           |ans<8>         |   12.465|
+B<7>           |ans<9>         |   13.173|
+B<7>           |ans<10>        |   13.066|
+B<7>           |ans<11>        |   13.497|
+B<7>           |ans<12>        |   13.544|
+B<7>           |ans<13>        |   13.541|
+B<7>           |ans<14>        |   13.521|
+B<7>           |ans<15>        |   13.889|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Nov 28 11:03:31 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4862 MB
+
+
+

@@ -1,0 +1,5 @@
+verilog work "../Half_Adder/half_adder.v"
+verilog work "../Full_Adder/full_adder.v"
+verilog work "WalaceTree.v"
+verilog work "test.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

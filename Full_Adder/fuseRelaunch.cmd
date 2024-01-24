@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "G:/New_Wallce_Tree_8/Full_Adder/Test1_isim_beh.exe" -prj "G:/New_Wallce_Tree_8/Full_Adder/Test1_beh.prj" "work.Test1" "work.glbl" 

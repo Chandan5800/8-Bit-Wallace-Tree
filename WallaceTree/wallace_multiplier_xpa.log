@@ -1,0 +1,19 @@
+Creating log file H:\New_Wallce_Tree_8\WallaceTree\wallace_multiplier_xpa.log.
+Loading device for application Rf_Device from file '7z010.nph' in environment
+C:\Xilinx\14.7\ISE_DS\ISE\.
+   "wallace_multiplier" is an NCD, version 3.2, device xc7z010, package clg400,
+speed -1
+
+INFO:Power:1693 - 
+   --------------------------------------------------------------
+                         The power estimate will be calculated using PRODUCTION
+   data.
+   --------------------------------------------------------------
+
+Design load 20% completeDesign load 25% completeDesign load 30% completeDesign load 60% completeDesign load 95% completeDesign load 100% completeRunning Vector-less Activity Propagation
+......
+Finished Running Vector-less Activity Propagation
+Finished Running Vector-less Activity Propagation 0 secs 
+
+Design 'wallace_multiplier.ncd' and constraints 'wallace_multiplier.pcf' opened successfully
+

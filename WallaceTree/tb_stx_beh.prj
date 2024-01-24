@@ -1,0 +1,5 @@
+verilog isim_temp "../Half_Adder/half_adder.v"
+verilog isim_temp "../Full_Adder/full_adder.v"
+verilog isim_temp "WalaceTree.v"
+verilog isim_temp "test.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

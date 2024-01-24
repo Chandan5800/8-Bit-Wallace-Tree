@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "G:/New_Wallce_Tree_8/Half_Adder/half_adder.xst" -ofn "G:/New_Wallce_Tree_8/Half_Adder/half_adder.syr" 
